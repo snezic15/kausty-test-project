@@ -1,4 +1,4 @@
-import Navbar from "../../components/navbar"
+import Navbar from "@/components/navbar"
 
 export default function Home() {
   return (
@@ -6,7 +6,7 @@ export default function Home() {
     // Uses Flexbox to center content vertically and horizontally within the viewport
     // Sets a minimum height of the full viewport height and a light gray background
     <div>
-      <Navbar title="FilesHome!" links={["Home", "Temp"]} />
+      <Navbar title="FilesHome!" links={["Home", "Help"]} />
       <div className="flex justify-center items-center min-h-screen bg-gray-100 font-sans">
         {/* Content container */}
         {/* Centers the text, adds padding, rounds corners, applies a background color, and adds a shadow */}
